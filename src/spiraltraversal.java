@@ -23,7 +23,7 @@ public class spiraltraversal {
         int maxc = arr[0].length - 1 ;
         int tne = n * m ;
         int count  = 0;
-        while (true){
+        while (count < tne){
             //left wall
             for(int i = minr , j = minc; i<=maxr && count<tne; i++){
                 System.out.println(arr[i][j]);
